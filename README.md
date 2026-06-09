@@ -3,7 +3,7 @@
  ### 
 
 <h2>Description</h2>
-Project consists of creating a mini virtual hacking envirornment. This is a safe environment and noting that we do will affect your host machine. 
+Project consists of creating a mini virtual hacking envirornment. This is a safe environment and nothing that we do will affect your host machine. 
 <br />
 
 
@@ -31,42 +31,30 @@ Install Docker Desktop: <br/>
 
  Verify Docker Is Running: <br/>
 
-  Open your terminal (PowerShell) and entering:
-  ```bash
-docker --version
+  Open your terminal (PowerShell) and enter:
+```powershell
+ docker --version
+ ```
+ <img src="https://imgur.com/LodFU42.png" height="80%" width="80%" alt="Home Lab"/>
+<br />
+<br />
+Create a folder named cyber-lab on your desktop and move into it: <br/>
 
+```powershell
+cd $HOME\Desktop\cyber-lab
+ ```
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+
+While Docker is running in the background, enter the following command in your terminal:
+
+```powershell
+docker compose up
 ```
---!>
+<br />
+<br />
+
+
+
+
